@@ -5,7 +5,7 @@
   "description": "TODO",
   "main": "lib/index.js",
   "scripts": {
-    "deploy": "cp -R lib ../../../outdoorvideo-app/node_modules/@react-native-social-share/utils/",
+    "deploy": "mkdir -p /Users/yang/Documents/FL/spidergolf/demo/node_modules/@react-native-social-share/utils && cp -R lib /Users/yang/Documents/FL/spidergolf/demo/node_modules/@react-native-social-share/utils/",
     "build": "rm -rf lib && tsc && yarn deploy",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "eslint src/**/*.ts",
