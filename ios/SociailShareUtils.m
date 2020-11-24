@@ -1,7 +1,7 @@
 #import "SociailShareUtils.h"
 
 
-@implementation Utils
+@implementation SociailShareUtils
 
 RCT_EXPORT_MODULE()
 

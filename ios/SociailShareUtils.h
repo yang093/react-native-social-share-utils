@@ -1,5 +1,5 @@
 #import <React/RCTBridgeModule.h>
 
-@interface Utils : NSObject <RCTBridgeModule>
+@interface SociailShareUtils : NSObject <RCTBridgeModule>
 
 @end
